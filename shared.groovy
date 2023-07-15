@@ -7,3 +7,6 @@ def systemInfo(){
     hostnamectl > /opt/sample.txt
     
 }
+def movegroovy(){
+    mv /var/lib/jenkins/workspace/testing/devOps/devops/* /opt/devops/
+}
